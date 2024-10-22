@@ -14,5 +14,5 @@ from sklearn.datasets import make_blobs
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 X, y = make_blobs(random_state = 42)
-kmeans = KMeans(n_clusters=5, random_state=42)
+kmeans = KMeans(n_clusters = 5, random_state = 42)
 silhouette_score(X, kmeans.fit_predict(x))
